@@ -1,3 +1,72 @@
+
+/*header styles*/
+.navigation {
+	display: inline-block;
+	margin-left: 50px;
+}
+.header-wraper {
+	background: blueviolet;
+	padding: 25px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+.li-item {
+	display: inline-block;
+}
+.section-after-header {
+	margin-top: 66px;
+}
+/*position absolute & relative*/
+.child {
+	width: 150px;
+	height: 150px;
+	background: pink;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	z-index: 2;
+}
+.wraper {
+	width: 400px;
+	height: 400px;
+	background: grey;
+	position: relative;
+}
+.child2 {
+	width: 150px;
+	height: 150px;
+	background: red;
+	position: absolute;
+	top: 100px;
+	right: 100px;
+	z-index: 3;
+}
+/*image example*/
+.text-image {
+	position: absolute;
+	top:  150px;
+	right: 150px;
+	font-size: 35px;
+	color: red;
+}
+.image-wraper {
+	position: relative;
+	display: inline-block;
+}
+
+/*chat icon styles*/
+.image-chat {
+	height: 80px;
+}
+.chat-icon {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+}
+/*homework styles*/
 .container {
 	width: 1088px;
 	margin: 0 auto;
