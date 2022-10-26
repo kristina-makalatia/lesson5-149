@@ -1,0 +1,44 @@
+.container {
+	width: 1088px;
+	margin: 0 auto;
+}
+.left-block {
+	width: 536px;
+	height: 190px;
+	background: grey;
+	display: inline-block;
+	margin-right: 16px;
+}
+
+.right-block {
+    width: 536px;
+	height: 190px;
+	background: lightblue;
+	display: inline-block;
+}
+.text-block {
+	display: inline-block;
+	width: 260px;
+	vertical-align: middle;
+}
+.image-block {
+	vertical-align: middle;
+}
+
+/*section #2 styles*/
+.block {
+	width: 352px;
+	height: 360px;
+	background: lightblue;
+	display: inline-block;
+}
+.size {
+	margin: 0 16px;
+}
+.text-block2 {
+	width: 260px;
+	margin: 0 auto;
+	background: grey;
+	text-align: center;
+	margin-top: 23px;
+}
